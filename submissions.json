@@ -1,4 +1,20 @@
 {
+  "AC20491887": {
+    "contest_id": "abc192",
+    "language": "Python (3.8.2)",
+    "path": "atcoder/abc192/B.py",
+    "platform": "AtCoder",
+    "problem_index": "B",
+    "problem_name": "uNrEaDaBlE sTrInG",
+    "problem_url": "https://atcoder.jp/contests/abc192/tasks/abc192_b",
+    "submission_id": "AC20491887",
+    "submission_url": "https://atcoder.jp/contests/abc192/submissions/20491887",
+    "tags": [
+      "AtCoder",
+      "*200"
+    ],
+    "timestamp": "Feb/26/2021 10:30"
+  },
   "AC21044146": {
     "contest_id": "abc171",
     "language": "C++ (GCC 9.2.1)",
