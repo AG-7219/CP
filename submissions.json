@@ -1,4 +1,20 @@
 {
+  "AC26399341": {
+    "contest_id": "caddi2018",
+    "language": "C++ (GCC 9.2.1)",
+    "path": "atcoder/caddi2018/C.cpp",
+    "platform": "AtCoder",
+    "problem_index": "C",
+    "problem_name": "Product and GCD",
+    "problem_url": "https://atcoder.jp/contests/caddi2018/tasks/caddi2018_a",
+    "submission_id": "AC26399341",
+    "submission_url": "https://atcoder.jp/contests/caddi2018/submissions/26399341",
+    "tags": [
+      "AtCoder",
+      "*300"
+    ],
+    "timestamp": "Oct/07/2021 15:17"
+  },
   "AC26401426": {
     "contest_id": "agc035",
     "language": "C++ (GCC 9.2.1)",
