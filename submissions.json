@@ -1,4 +1,20 @@
 {
+  "AC26399063": {
+    "contest_id": "abc056",
+    "language": "C++ (GCC 9.2.1)",
+    "path": "atcoder/abc056/C.cpp",
+    "platform": "AtCoder",
+    "problem_index": "C",
+    "problem_name": "Go Home",
+    "problem_url": "https://atcoder.jp/contests/abc056/tasks/arc070_a",
+    "submission_id": "AC26399063",
+    "submission_url": "https://atcoder.jp/contests/abc056/submissions/26399063",
+    "tags": [
+      "AtCoder",
+      "*200"
+    ],
+    "timestamp": "Oct/07/2021 14:52"
+  },
   "AC26399117": {
     "contest_id": "code-festival-2017-qualb",
     "language": "C++ (GCC 9.2.1)",
