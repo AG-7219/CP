@@ -1,4 +1,20 @@
 {
+  "AC26401426": {
+    "contest_id": "agc035",
+    "language": "C++ (GCC 9.2.1)",
+    "path": "atcoder/agc035/A.cpp",
+    "platform": "AtCoder",
+    "problem_index": "A",
+    "problem_name": "XOR Circle",
+    "problem_url": "https://atcoder.jp/contests/agc035/tasks/agc035_a",
+    "submission_id": "AC26401426",
+    "submission_url": "https://atcoder.jp/contests/agc035/submissions/26401426",
+    "tags": [
+      "AtCoder",
+      "*300"
+    ],
+    "timestamp": "Oct/07/2021 17:53"
+  },
   "AC26505536": {
     "contest_id": "abc114",
     "language": "C++ (GCC 9.2.1)",
