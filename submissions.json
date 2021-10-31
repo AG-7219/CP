@@ -1,4 +1,20 @@
 {
+  "AC26955708": {
+    "contest_id": "abc046",
+    "language": "C++ (GCC 9.2.1)",
+    "path": "atcoder/abc046/C.cpp",
+    "platform": "AtCoder",
+    "problem_index": "C",
+    "problem_name": "AtCoDeer and Election Report",
+    "problem_url": "https://atcoder.jp/contests/abc046/tasks/arc062_a",
+    "submission_id": "AC26955708",
+    "submission_url": "https://atcoder.jp/contests/abc046/submissions/26955708",
+    "tags": [
+      "AtCoder",
+      "*300"
+    ],
+    "timestamp": "Oct/31/2021 17:22"
+  },
   "AC26969242": {
     "contest_id": "abc043",
     "language": "C++ (GCC 9.2.1)",
