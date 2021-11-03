@@ -1,4 +1,20 @@
 {
+  "AC27009920": {
+    "contest_id": "abc081",
+    "language": "C++ (GCC 9.2.1)",
+    "path": "atcoder/abc081/C.cpp",
+    "platform": "AtCoder",
+    "problem_index": "C",
+    "problem_name": "Not so Diverse",
+    "problem_url": "https://atcoder.jp/contests/abc081/tasks/arc086_a",
+    "submission_id": "AC27009920",
+    "submission_url": "https://atcoder.jp/contests/abc081/submissions/27009920",
+    "tags": [
+      "AtCoder",
+      "*300"
+    ],
+    "timestamp": "Nov/03/2021 19:25"
+  },
   "AC27013342": {
     "contest_id": "abc099",
     "language": "C++ (GCC 9.2.1)",
