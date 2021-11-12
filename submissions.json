@@ -1,4 +1,20 @@
 {
+  "AC27190557": {
+    "contest_id": "abc063",
+    "language": "C++ (GCC 9.2.1)",
+    "path": "atcoder/abc063/C.cpp",
+    "platform": "AtCoder",
+    "problem_index": "C",
+    "problem_name": "Bugged",
+    "problem_url": "https://atcoder.jp/contests/abc063/tasks/arc075_a",
+    "submission_id": "AC27190557",
+    "submission_url": "https://atcoder.jp/contests/abc063/submissions/27190557",
+    "tags": [
+      "AtCoder",
+      "*300"
+    ],
+    "timestamp": "Nov/12/2021 14:08"
+  },
   "AC27190767": {
     "contest_id": "abc065",
     "language": "C++ (GCC 9.2.1)",
