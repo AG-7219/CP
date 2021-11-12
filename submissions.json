@@ -1,4 +1,20 @@
 {
+  "AC27191332": {
+    "contest_id": "abc069",
+    "language": "C++ (GCC 9.2.1)",
+    "path": "atcoder/abc069/C.cpp",
+    "platform": "AtCoder",
+    "problem_index": "C",
+    "problem_name": "4-adjacent",
+    "problem_url": "https://atcoder.jp/contests/abc069/tasks/arc080_a",
+    "submission_id": "AC27191332",
+    "submission_url": "https://atcoder.jp/contests/abc069/submissions/27191332",
+    "tags": [
+      "AtCoder",
+      "*400"
+    ],
+    "timestamp": "Nov/12/2021 15:14"
+  },
   "AC27191670": {
     "contest_id": "abc070",
     "language": "C++ (GCC 9.2.1)",
