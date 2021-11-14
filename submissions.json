@@ -1,4 +1,20 @@
 {
+  "AC27266895": {
+    "contest_id": "abc082",
+    "language": "C++ (GCC 9.2.1)",
+    "path": "atcoder/abc082/B.cpp",
+    "platform": "AtCoder",
+    "problem_index": "B",
+    "problem_name": "Two Anagrams",
+    "problem_url": "https://atcoder.jp/contests/abc082/tasks/abc082_b",
+    "submission_id": "AC27266895",
+    "submission_url": "https://atcoder.jp/contests/abc082/submissions/27266895",
+    "tags": [
+      "AtCoder",
+      "*200"
+    ],
+    "timestamp": "Nov/15/2021 00:45"
+  },
   "AC27266995": {
     "contest_id": "abc118",
     "language": "C++ (GCC 9.2.1)",
