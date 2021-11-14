@@ -1,4 +1,20 @@
 {
+  "AC27266995": {
+    "contest_id": "abc118",
+    "language": "C++ (GCC 9.2.1)",
+    "path": "atcoder/abc118/C.cpp",
+    "platform": "AtCoder",
+    "problem_index": "C",
+    "problem_name": "Monsters Battle Royale",
+    "problem_url": "https://atcoder.jp/contests/abc118/tasks/abc118_c",
+    "submission_id": "AC27266995",
+    "submission_url": "https://atcoder.jp/contests/abc118/submissions/27266995",
+    "tags": [
+      "AtCoder",
+      "*300"
+    ],
+    "timestamp": "Nov/15/2021 01:10"
+  },
   "AC27267025": {
     "contest_id": "abc173",
     "language": "C++ (GCC 9.2.1)",
