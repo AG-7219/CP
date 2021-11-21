@@ -1,4 +1,20 @@
 {
+  "AC27426538": {
+    "contest_id": "arc129",
+    "language": "C++ (GCC 9.2.1)",
+    "path": "atcoder/arc129/A.cpp",
+    "platform": "AtCoder",
+    "problem_index": "A",
+    "problem_name": "Smaller XOR",
+    "problem_url": "https://atcoder.jp/contests/arc129/tasks/arc129_a",
+    "submission_id": "AC27426538",
+    "submission_url": "https://atcoder.jp/contests/arc129/submissions/27426538",
+    "tags": [
+      "AtCoder",
+      "*300"
+    ],
+    "timestamp": "Nov/21/2021 18:04"
+  },
   "AC27427973": {
     "contest_id": "arc129",
     "language": "C++ (GCC 9.2.1)",
