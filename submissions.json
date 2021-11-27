@@ -1,4 +1,20 @@
 {
+  "AC27518813": {
+    "contest_id": "abc229",
+    "language": "C++ (GCC 9.2.1)",
+    "path": "atcoder/abc229/B.cpp",
+    "platform": "AtCoder",
+    "problem_index": "B",
+    "problem_name": "Hard Calculation",
+    "problem_url": "https://atcoder.jp/contests/abc229/tasks/abc229_b",
+    "submission_id": "AC27518813",
+    "submission_url": "https://atcoder.jp/contests/abc229/submissions/27518813",
+    "tags": [
+      "AtCoder",
+      "*200"
+    ],
+    "timestamp": "Nov/27/2021 17:37"
+  },
   "AC27527018": {
     "contest_id": "abc229",
     "language": "C++ (GCC 9.2.1)",
