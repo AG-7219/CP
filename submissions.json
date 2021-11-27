@@ -1,4 +1,20 @@
 {
+  "AC27541060": {
+    "contest_id": "abc229",
+    "language": "C++ (GCC 9.2.1)",
+    "path": "atcoder/abc229/D.cpp",
+    "platform": "AtCoder",
+    "problem_index": "D",
+    "problem_name": "Longest X",
+    "problem_url": "https://atcoder.jp/contests/abc229/tasks/abc229_d",
+    "submission_id": "AC27541060",
+    "submission_url": "https://atcoder.jp/contests/abc229/submissions/27541060",
+    "tags": [
+      "AtCoder",
+      "*400"
+    ],
+    "timestamp": "Nov/27/2021 18:38"
+  },
   "AC27568653": {
     "contest_id": "arc130",
     "language": "C++ (GCC 9.2.1)",
