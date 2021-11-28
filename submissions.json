@@ -1,4 +1,20 @@
 {
+  "AC27572425": {
+    "contest_id": "arc130",
+    "language": "C++ (GCC 9.2.1)",
+    "path": "atcoder/arc130/B.cpp",
+    "platform": "AtCoder",
+    "problem_index": "B",
+    "problem_name": "Colorful Lines",
+    "problem_url": "https://atcoder.jp/contests/arc130/tasks/arc130_b",
+    "submission_id": "AC27572425",
+    "submission_url": "https://atcoder.jp/contests/arc130/submissions/27572425",
+    "tags": [
+      "AtCoder",
+      "*400"
+    ],
+    "timestamp": "Nov/28/2021 18:03"
+  },
   "AC27644182": {
     "contest_id": "abc230",
     "language": "C++ (GCC 9.2.1)",
