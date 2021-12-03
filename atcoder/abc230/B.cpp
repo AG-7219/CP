@@ -80,10 +80,30 @@ void file_i_o()
 void solve(int T)
 {
     get(string,s)
-    string test = "oxx";
-    rep(i,0,3) test += "oxx";
-    if(test.find(s)!=test.npos) putn("Yes")
+    string t3(s.length(),' '), t1(s.length(), ' '), t2(s.length(),' ');
+    rep(i,0,s.length())
+    {
+        if(i%3 == 0)
+        {
+            t1[i] = 'o';
+            t2[i] = 'x';
+            t3[i] = 'x';
+        }
+        else if(i%3 == 1)
+        {
+            t1[i] = 'x';
+            t2[i] = 'o';
+            t3[i] = 'x';
+        }
+        else{
+            t1[i] = 'x';
+            t2[i] = 'x';
+            t3[i] = 'o';
+        }
+    }
+    if(s==t1 or s==t2 or s==t3) putn("Yes")
     else putn("No")
+    
 }
 
 signed main()
