@@ -1,4 +1,20 @@
 {
+  "AC28053371": {
+    "contest_id": "arc124",
+    "language": "C++ (GCC 9.2.1)",
+    "path": "atcoder/arc124/B.cpp",
+    "platform": "AtCoder",
+    "problem_index": "B",
+    "problem_name": "XOR Matching 2",
+    "problem_url": "https://atcoder.jp/contests/arc124/tasks/arc124_b",
+    "submission_id": "AC28053371",
+    "submission_url": "https://atcoder.jp/contests/arc124/submissions/28053371",
+    "tags": [
+      "AtCoder",
+      "*400"
+    ],
+    "timestamp": "Dec/21/2021 20:46"
+  },
   "AC28110471": {
     "contest_id": "abc233",
     "language": "C++ (GCC 9.2.1)",
