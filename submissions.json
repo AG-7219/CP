@@ -6559,6 +6559,23 @@
     ],
     "timestamp": "Jan/16/2023 13:27"
   },
+  "CF140168711": {
+    "contest_id": 645,
+    "language": "GNU C++20 (64)",
+    "path": "codeforces/645/C.cpp",
+    "platform": "Codeforces",
+    "problem_index": "C",
+    "problem_name": "Enduring Exodus",
+    "problem_url": "https://codeforces.com/contest/645/problem/C",
+    "submission_id": "CF140168711",
+    "submission_url": "https://codeforces.com/contest/645/submission/140168711",
+    "tags": [
+      "binary search",
+      "two pointers",
+      "*1600"
+    ],
+    "timestamp": "Dec/21/2021 19:03"
+  },
   "CF140228742": {
     "contest_id": 1337,
     "language": "GNU C++20 (64)",
