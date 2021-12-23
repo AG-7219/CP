@@ -6559,6 +6559,23 @@
     ],
     "timestamp": "Jan/16/2023 13:27"
   },
+  "CF140319591": {
+    "contest_id": 1144,
+    "language": "GNU C++20 (64)",
+    "path": "codeforces/1144/F.cpp",
+    "platform": "Codeforces",
+    "problem_index": "F",
+    "problem_name": "Graph Without Long Directed Paths",
+    "problem_url": "https://codeforces.com/contest/1144/problem/F",
+    "submission_id": "CF140319591",
+    "submission_url": "https://codeforces.com/contest/1144/submission/140319591",
+    "tags": [
+      "dfs and similar",
+      "graphs",
+      "*1700"
+    ],
+    "timestamp": "Dec/23/2021 11:51"
+  },
   "CF140323190": {
     "contest_id": 1093,
     "language": "GNU C++20 (64)",
