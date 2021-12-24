@@ -5,7 +5,7 @@
 #pragma GCC optimize("O3,unroll-loops")
 #pragma GCC target("avx2,bmi,bmi2,lzcnt,popcnt")
 
-#define int               long long
+// #define int               long long
 #define ld                long double
 #define get(T,args...)    T args; read(args);
 #define init(a,T,n,s)     vector<T> a((n)+1,s); cin>>a;
@@ -75,38 +75,95 @@ void file_i_o()
     freopen("./tests/output01.txt", "w", stdout);
 }
 
-void solve(int T)
+struct SegTree
 {
-    get(string,s)
-    vector<int> dp(s.length(),0);
-    //dp[i] denotes the max length RBS ending at index i
+    vector<int> tree, lazy;
+    
+    SegTree() { }
+    SegTree(int n) 
+    {   
+        tree.resize(8*n+4);
+        tree.assign(tree.size(),-1);
+        lazy.resize(8*n+4);
+        lazy.assign(lazy.size(),lazy.size());
+    }
 
-    stack<int> st;
-    int ans = 0, res = 1;
-
-    rep(i,0,s.length())
+    void push(int i, int ss, int se)
     {
-        if(s[i] == '(') st.push(i);
-        else 
+        if(ss!=se)
         {
-            if(st.size())
-            {
-                int j = st.top();
-                st.pop();
-
-                //j..i is a RBS
-                dp[i] = i-j+1 + (j ? dp[j-1] : 0);
-                if(dp[i] > ans)
-                {
-                    ans = dp[i];
-                    res = 1;
-                }
-                else if(dp[i] == ans) res++;
-            }
+            lazy[2*i] = lazy[2*i+1] = lazy[i];
         }
     }
 
+    int query(int i, int ss, int se, int x)
+    {
+        if(lazy[i] != lazy.size())
+        {
+            tree[i] = lazy[i];
+            push(i,ss,se);
+            lazy[i] = lazy.size();
+        }
+        if(ss == se) return tree[i];
+        int mid = (ss + se)/2;
+        if(x<=mid) return query(2*i,ss,mid,x);
+        else return query(2*i+1,mid+1,se,x);
+    }
+
+    void update(int i, int ss, int se, int l, int r, int val)
+    {
+        if(lazy[i] != lazy.size())
+        {
+            tree[i] = lazy[i];
+            push(i,ss,se);
+            lazy[i] = lazy.size();
+        }
+
+        if(ss>r or se<l) return ;
+        if(ss>=l and se<=r)
+        {
+            tree[i] = val;
+            if(ss!=se) lazy[2*i] = lazy[2*i+1] = val;
+            return ; 
+        }
+        int mid = (ss + se)/2;
+        update(2*i,ss,mid,l,r,val);
+        update(2*i+1,mid+1,se,l,r,val);
+    }
+};
+
+void solve(int T)
+{
+    get(string,s)
+    int n = s.length();
+    s.insert(s.begin(),' ');
+    auto root = *new SegTree(n);
+    root.update(1,0,2*n+1,n,n,0);
+
+    int cnt = 0;
+    int ans = 0, res = 1;
+    for(int i=1; i<s.length(); i++)
+    {
+        if(s[i] == '(') cnt++;
+        else cnt--;
+
+        int ind = root.query(1,0,2*n+1,cnt+n);
+        if(ind != -1)
+        {
+            if(i - ind > ans)
+            {
+                ans = i - ind;
+                res = 1;
+            }
+            else if(i-ind == ans) res++;
+        }
+        else root.update(1,0,2*n+1,cnt+n,cnt+n,i); 
+        
+        root.update(1,0,2*n+1,cnt+n+1,2*n+1,-1);
+    }
+
     putn(ans,res)
+
 }
 
 signed main()
