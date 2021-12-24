@@ -5,7 +5,7 @@
 // #pragma GCC optimize("O3,unroll-loops")
 // #pragma GCC target("avx2,bmi,bmi2,lzcnt,popcnt")
 
-// #define int               long long
+#define int               long long
 #define ld                long double
 #define get(T,args...)    T args; read(args);
 #define init(a,T,n,s)     vector<T> a((n)+1,s); cin>>a;
