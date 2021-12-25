@@ -6559,6 +6559,24 @@
     ],
     "timestamp": "Jan/16/2023 13:27"
   },
+  "CF140597831": {
+    "contest_id": 305,
+    "language": "GNU C++20 (64)",
+    "path": "codeforces/305/B.cpp",
+    "platform": "Codeforces",
+    "problem_index": "B",
+    "problem_name": "Continued Fractions",
+    "problem_url": "https://codeforces.com/contest/305/problem/B",
+    "submission_id": "CF140597831",
+    "submission_url": "https://codeforces.com/contest/305/submission/140597831",
+    "tags": [
+      "brute force",
+      "implementation",
+      "math",
+      "*1700"
+    ],
+    "timestamp": "Dec/25/2021 22:37"
+  },
   "CF140628788": {
     "contest_id": 59,
     "language": "GNU C++20 (64)",
