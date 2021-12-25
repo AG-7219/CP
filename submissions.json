@@ -1,4 +1,20 @@
 {
+  "AC28133839": {
+    "contest_id": "abc233",
+    "language": "C++ (GCC 9.2.1)",
+    "path": "atcoder/abc233/E.cpp",
+    "platform": "AtCoder",
+    "problem_index": "E",
+    "problem_name": "\u03a3[k=0..10^100]floor(X\uff0f10^k)",
+    "problem_url": "https://atcoder.jp/contests/abc233/tasks/abc233_e",
+    "submission_id": "AC28133839",
+    "submission_url": "https://atcoder.jp/contests/abc233/submissions/28133839",
+    "tags": [
+      "AtCoder",
+      "*500"
+    ],
+    "timestamp": "Dec/25/2021 18:15"
+  },
   "AC28174222": {
     "contest_id": "arc132",
     "language": "C++ (GCC 9.2.1)",
