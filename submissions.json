@@ -1,4 +1,20 @@
 {
+  "AC28233195": {
+    "contest_id": "abc132",
+    "language": "C++ (GCC 9.2.1)",
+    "path": "atcoder/abc132/D.cpp",
+    "platform": "AtCoder",
+    "problem_index": "D",
+    "problem_name": "Blue and Red Balls",
+    "problem_url": "https://atcoder.jp/contests/abc132/tasks/abc132_d",
+    "submission_id": "AC28233195",
+    "submission_url": "https://atcoder.jp/contests/abc132/submissions/28233195",
+    "tags": [
+      "AtCoder",
+      "*400"
+    ],
+    "timestamp": "Dec/30/2021 12:19"
+  },
   "AC28233279": {
     "contest_id": "abc132",
     "language": "C++ (GCC 9.2.1)",
