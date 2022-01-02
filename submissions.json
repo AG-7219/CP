@@ -1,4 +1,20 @@
 {
+  "AC28300197": {
+    "contest_id": "abc053",
+    "language": "C++ (GCC 9.2.1)",
+    "path": "atcoder/abc053/D.cpp",
+    "platform": "AtCoder",
+    "problem_index": "D",
+    "problem_name": "Card Eater",
+    "problem_url": "https://atcoder.jp/contests/abc053/tasks/arc068_b",
+    "submission_id": "AC28300197",
+    "submission_url": "https://atcoder.jp/contests/abc053/submissions/28300197",
+    "tags": [
+      "AtCoder",
+      "*400"
+    ],
+    "timestamp": "Jan/02/2022 22:53"
+  },
   "AC28312551": {
     "contest_id": "abc080",
     "language": "C++ (GCC 9.2.1)",
