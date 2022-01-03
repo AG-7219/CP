@@ -1,4 +1,20 @@
 {
+  "AC28312551": {
+    "contest_id": "abc080",
+    "language": "C++ (GCC 9.2.1)",
+    "path": "atcoder/abc080/C.cpp",
+    "platform": "AtCoder",
+    "problem_index": "C",
+    "problem_name": "Shopping Street",
+    "problem_url": "https://atcoder.jp/contests/abc080/tasks/abc080_c",
+    "submission_id": "AC28312551",
+    "submission_url": "https://atcoder.jp/contests/abc080/submissions/28312551",
+    "tags": [
+      "AtCoder",
+      "*300"
+    ],
+    "timestamp": "Jan/03/2022 19:32"
+  },
   "AC28378898": {
     "contest_id": "abc138",
     "language": "C++ (GCC 9.2.1)",
