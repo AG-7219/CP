@@ -6559,6 +6559,27 @@
     ],
     "timestamp": "Jan/16/2023 13:27"
   },
+  "CF142603534": {
+    "contest_id": 1624,
+    "language": "GNU C++20 (64)",
+    "path": "codeforces/1624/E.cpp",
+    "platform": "Codeforces",
+    "problem_index": "E",
+    "problem_name": "Masha-forgetful",
+    "problem_url": "https://codeforces.com/contest/1624/problem/E",
+    "submission_id": "CF142603534",
+    "submission_url": "https://codeforces.com/contest/1624/submission/142603534",
+    "tags": [
+      "brute force",
+      "constructive algorithms",
+      "dp",
+      "hashing",
+      "implementation",
+      "strings",
+      "*2000"
+    ],
+    "timestamp": "Jan/13/2022 17:42"
+  },
   "CF142610835": {
     "contest_id": 1624,
     "language": "GNU C++20 (64)",
