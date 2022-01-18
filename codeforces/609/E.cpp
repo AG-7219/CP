@@ -77,25 +77,21 @@ void file_i_o()
     freopen("./tests/output01.txt", "w", stdout);
 }
 
-class DSU
+int find(vector<int>& parent, int a)
 {
-    vector<int> par, sizes;
-    public:
-        DSU(int n) : par(n+1), sizes(n+1,1) { for(int i=1; i<=n; i++) par[i] = i; }
+    return parent[a]=(parent[a]==a) ? a : find(parent,parent[a]);
+}
 
-        int find_set(int x)  { return par[x] = (par[x] == x) ? x : find_set(par[x]); } 
-
-        bool merge(int x, int y)
-        {
-            x = find_set(x);
-            y = find_set(y);
-            if(x == y) return false;
-            if(sizes[y] > sizes[x]) swap(x,y);
-            sizes[x] += sizes[y];
-            par[y] = x; 
-            return true;
-        }
-};
+bool merge(vector<int>& size, vector<int>& parent, int a, int b)
+{
+    a=find(parent,parent[a]);
+    b=find(parent,parent[b]);
+    if(a==b) return false;
+    if(size[a] < size[b]) swap(a,b);
+    parent[b]=a;
+    size[a]+=size[b];
+    return true;
+}
 
 void solve(int T)
 {
@@ -109,11 +105,12 @@ void solve(int T)
     vector<pii> adj[n+1];
     vector<tuple<int,int,int>> temp(all(edges));
     sort(all(temp));
-    DSU dsu(n);
+    vector<int> sizes(n+1,1), parent(n+1);
+    rep(i,1,n+1) parent[i] = i;
     int cost = 0;
     for(auto& [w,u,v]:temp)
     {
-        if(dsu.merge(u,v))
+        if(merge(sizes,parent,u,v))
         {
             cost += w;
             adj[u].pb(v,w);
