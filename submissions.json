@@ -1,4 +1,20 @@
 {
+  "AC28638916": {
+    "contest_id": "arc030",
+    "language": "C++ (GCC 9.2.1)",
+    "path": "atcoder/arc030/B.cpp",
+    "platform": "AtCoder",
+    "problem_index": "B",
+    "problem_name": "\u30c4\u30ea\u30fc\u30b0\u30e9\u30d5",
+    "problem_url": "https://atcoder.jp/contests/arc030/tasks/arc030_2",
+    "submission_id": "AC28638916",
+    "submission_url": "https://atcoder.jp/contests/arc030/submissions/28638916",
+    "tags": [
+      "AtCoder",
+      "*100"
+    ],
+    "timestamp": "Jan/19/2022 20:54"
+  },
   "AC28717717": {
     "contest_id": "abc236",
     "language": "C++ (GCC 9.2.1)",
