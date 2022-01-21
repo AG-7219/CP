@@ -6559,6 +6559,24 @@
     ],
     "timestamp": "Jan/16/2023 13:27"
   },
+  "CF143552464": {
+    "contest_id": 1033,
+    "language": "GNU C++20 (64)",
+    "path": "codeforces/1033/C.cpp",
+    "platform": "Codeforces",
+    "problem_index": "C",
+    "problem_name": "Permutation Game",
+    "problem_url": "https://codeforces.com/contest/1033/problem/C",
+    "submission_id": "CF143552464",
+    "submission_url": "https://codeforces.com/contest/1033/submission/143552464",
+    "tags": [
+      "brute force",
+      "dp",
+      "games",
+      "*1600"
+    ],
+    "timestamp": "Jan/22/2022 00:19"
+  },
   "CF143630445": {
     "contest_id": 1629,
     "language": "GNU C++20 (64)",
