@@ -1,4 +1,20 @@
 {
+  "AC28940879": {
+    "contest_id": "abc237",
+    "language": "C++ (GCC 9.2.1)",
+    "path": "atcoder/abc237/E.cpp",
+    "platform": "AtCoder",
+    "problem_index": "E",
+    "problem_name": "Skiing",
+    "problem_url": "https://atcoder.jp/contests/abc237/tasks/abc237_e",
+    "submission_id": "AC28940879",
+    "submission_url": "https://atcoder.jp/contests/abc237/submissions/28940879",
+    "tags": [
+      "AtCoder",
+      "*500"
+    ],
+    "timestamp": "Jan/30/2022 18:30"
+  },
   "AC28976817": {
     "contest_id": "abc058",
     "language": "C++ (GCC 9.2.1)",
