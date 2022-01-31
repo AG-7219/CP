@@ -1,4 +1,20 @@
 {
+  "AC28978638": {
+    "contest_id": "abc110",
+    "language": "C++ (GCC 9.2.1)",
+    "path": "atcoder/abc110/D.cpp",
+    "platform": "AtCoder",
+    "problem_index": "D",
+    "problem_name": "Factorization",
+    "problem_url": "https://atcoder.jp/contests/abc110/tasks/abc110_d",
+    "submission_id": "AC28978638",
+    "submission_url": "https://atcoder.jp/contests/abc110/submissions/28978638",
+    "tags": [
+      "AtCoder",
+      "*400"
+    ],
+    "timestamp": "Jan/31/2022 19:30"
+  },
   "AC28979289": {
     "contest_id": "abc214",
     "language": "C++ (GCC 9.2.1)",
