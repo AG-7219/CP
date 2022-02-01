@@ -88,8 +88,7 @@ void solve(int T)
     {
         repr(j,N-1,-1)
         {
-            // if(j+items[i].second < N) amin(dp[j+items[i].second],dp[j]+items[i].first);
-            if(j >= items[i].second) amin(dp[j],dp[j-items[i].second] + items[i].first);
+            if(j+items[i].second < N) amin(dp[j+items[i].second],dp[j]+items[i].first);
         }
     }
 
