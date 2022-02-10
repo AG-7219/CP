@@ -1,4 +1,20 @@
 {
+  "AC29199502": {
+    "contest_id": "dp",
+    "language": "C++ (GCC 9.2.1)",
+    "path": "atcoder/dp/L.cpp",
+    "platform": "AtCoder",
+    "problem_index": "L",
+    "problem_name": "Deque",
+    "problem_url": "https://atcoder.jp/contests/dp/tasks/dp_l",
+    "submission_id": "AC29199502",
+    "submission_url": "https://atcoder.jp/contests/dp/submissions/29199502",
+    "tags": [
+      "AtCoder",
+      "*100"
+    ],
+    "timestamp": "Feb/10/2022 17:04"
+  },
   "AC29236901": {
     "contest_id": "abc065",
     "language": "C++ (GCC 9.2.1)",
