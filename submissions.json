@@ -1,4 +1,20 @@
 {
+  "AC29296959": {
+    "contest_id": "keyence2020",
+    "language": "C++ (GCC 9.2.1)",
+    "path": "atcoder/keyence2020/C.cpp",
+    "platform": "AtCoder",
+    "problem_index": "C",
+    "problem_name": "Subarray Sum",
+    "problem_url": "https://atcoder.jp/contests/keyence2020/tasks/keyence2020_c",
+    "submission_id": "AC29296959",
+    "submission_url": "https://atcoder.jp/contests/keyence2020/submissions/29296959",
+    "tags": [
+      "AtCoder",
+      "*400"
+    ],
+    "timestamp": "Feb/13/2022 16:29"
+  },
   "AC29298165": {
     "contest_id": "abc146",
     "language": "C++ (GCC 9.2.1)",
