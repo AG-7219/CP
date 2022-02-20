@@ -1,4 +1,20 @@
 {
+  "AC29505784": {
+    "contest_id": "abc240",
+    "language": "C++ (GCC 9.2.1)",
+    "path": "atcoder/abc240/B.cpp",
+    "platform": "AtCoder",
+    "problem_index": "B",
+    "problem_name": "Count Distinct Integers",
+    "problem_url": "https://atcoder.jp/contests/abc240/tasks/abc240_b",
+    "submission_id": "AC29505784",
+    "submission_url": "https://atcoder.jp/contests/abc240/submissions/29505784",
+    "tags": [
+      "AtCoder",
+      "*200"
+    ],
+    "timestamp": "Feb/20/2022 17:32"
+  },
   "AC29511481": {
     "contest_id": "abc240",
     "language": "C++ (GCC 9.2.1)",
