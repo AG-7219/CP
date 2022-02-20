@@ -1,4 +1,20 @@
 {
+  "AC29520825": {
+    "contest_id": "abc240",
+    "language": "C++ (GCC 9.2.1)",
+    "path": "atcoder/abc240/D.cpp",
+    "platform": "AtCoder",
+    "problem_index": "D",
+    "problem_name": "Strange Balls",
+    "problem_url": "https://atcoder.jp/contests/abc240/tasks/abc240_d",
+    "submission_id": "AC29520825",
+    "submission_url": "https://atcoder.jp/contests/abc240/submissions/29520825",
+    "tags": [
+      "AtCoder",
+      "*400"
+    ],
+    "timestamp": "Feb/20/2022 17:46"
+  },
   "AC29534830": {
     "contest_id": "abc240",
     "language": "C++ (GCC 9.2.1)",
