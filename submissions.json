@@ -1,4 +1,20 @@
 {
+  "AC29503498": {
+    "contest_id": "abc240",
+    "language": "C++ (GCC 9.2.1)",
+    "path": "atcoder/abc240/A.cpp",
+    "platform": "AtCoder",
+    "problem_index": "A",
+    "problem_name": "Edge Checker",
+    "problem_url": "https://atcoder.jp/contests/abc240/tasks/abc240_a",
+    "submission_id": "AC29503498",
+    "submission_url": "https://atcoder.jp/contests/abc240/submissions/29503498",
+    "tags": [
+      "AtCoder",
+      "*100"
+    ],
+    "timestamp": "Feb/20/2022 17:31"
+  },
   "AC29505784": {
     "contest_id": "abc240",
     "language": "C++ (GCC 9.2.1)",
