@@ -1,4 +1,20 @@
 {
+  "AC29692644": {
+    "contest_id": "abc241",
+    "language": "C++ (GCC 9.2.1)",
+    "path": "atcoder/abc241/C.cpp",
+    "platform": "AtCoder",
+    "problem_index": "C",
+    "problem_name": "Connect 6",
+    "problem_url": "https://atcoder.jp/contests/abc241/tasks/abc241_c",
+    "submission_id": "AC29692644",
+    "submission_url": "https://atcoder.jp/contests/abc241/submissions/29692644",
+    "tags": [
+      "AtCoder",
+      "*300"
+    ],
+    "timestamp": "Feb/26/2022 18:23"
+  },
   "AC29714117": {
     "contest_id": "abc231",
     "language": "C++ (GCC 9.2.1)",
