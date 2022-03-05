@@ -1,4 +1,20 @@
 {
+  "AC29876869": {
+    "contest_id": "abc242",
+    "language": "C++ (GCC 9.2.1)",
+    "path": "atcoder/abc242/C.cpp",
+    "platform": "AtCoder",
+    "problem_index": "C",
+    "problem_name": "1111gal password",
+    "problem_url": "https://atcoder.jp/contests/abc242/tasks/abc242_c",
+    "submission_id": "AC29876869",
+    "submission_url": "https://atcoder.jp/contests/abc242/submissions/29876869",
+    "tags": [
+      "AtCoder",
+      "*300"
+    ],
+    "timestamp": "Mar/05/2022 17:45"
+  },
   "AC29886201": {
     "contest_id": "abc242",
     "language": "C++ (GCC 9.2.1)",
