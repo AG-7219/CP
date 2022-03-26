@@ -1,4 +1,20 @@
 {
+  "AC30469057": {
+    "contest_id": "abc245",
+    "language": "C++ (GCC 9.2.1)",
+    "path": "atcoder/abc245/E.cpp",
+    "platform": "AtCoder",
+    "problem_index": "E",
+    "problem_name": "Wrapping Chocolate",
+    "problem_url": "https://atcoder.jp/contests/abc245/tasks/abc245_e",
+    "submission_id": "AC30469057",
+    "submission_url": "https://atcoder.jp/contests/abc245/submissions/30469057",
+    "tags": [
+      "AtCoder",
+      "*500"
+    ],
+    "timestamp": "Mar/26/2022 18:39"
+  },
   "AC30567243": {
     "contest_id": "abc104",
     "language": "C++ (GCC 9.2.1)",
