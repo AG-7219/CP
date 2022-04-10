@@ -1,4 +1,20 @@
 {
+  "AC30885717": {
+    "contest_id": "abc247",
+    "language": "C++ (GCC 9.2.1)",
+    "path": "atcoder/abc247/E.cpp",
+    "platform": "AtCoder",
+    "problem_index": "E",
+    "problem_name": "Max Min",
+    "problem_url": "https://atcoder.jp/contests/abc247/tasks/abc247_e",
+    "submission_id": "AC30885717",
+    "submission_url": "https://atcoder.jp/contests/abc247/submissions/30885717",
+    "tags": [
+      "AtCoder",
+      "*500"
+    ],
+    "timestamp": "Apr/10/2022 18:50"
+  },
   "AC30927022": {
     "contest_id": "abc099",
     "language": "C++ (GCC 9.2.1)",
