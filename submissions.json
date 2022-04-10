@@ -1,4 +1,20 @@
 {
+  "AC30846950": {
+    "contest_id": "abc247",
+    "language": "C++ (GCC 9.2.1)",
+    "path": "atcoder/abc247/A.cpp",
+    "platform": "AtCoder",
+    "problem_index": "A",
+    "problem_name": "Move Right",
+    "problem_url": "https://atcoder.jp/contests/abc247/tasks/abc247_a",
+    "submission_id": "AC30846950",
+    "submission_url": "https://atcoder.jp/contests/abc247/submissions/30846950",
+    "tags": [
+      "AtCoder",
+      "*100"
+    ],
+    "timestamp": "Apr/10/2022 17:31"
+  },
   "AC30858794": {
     "contest_id": "abc247",
     "language": "C++ (GCC 9.2.1)",
