@@ -1,4 +1,20 @@
 {
+  "AC31028274": {
+    "contest_id": "abc248",
+    "language": "C++ (GCC 9.2.1)",
+    "path": "atcoder/abc248/E.cpp",
+    "platform": "AtCoder",
+    "problem_index": "E",
+    "problem_name": "K-colinear Line",
+    "problem_url": "https://atcoder.jp/contests/abc248/tasks/abc248_e",
+    "submission_id": "AC31028274",
+    "submission_url": "https://atcoder.jp/contests/abc248/submissions/31028274",
+    "tags": [
+      "AtCoder",
+      "*500"
+    ],
+    "timestamp": "Apr/16/2022 18:13"
+  },
   "AC31062456": {
     "contest_id": "abc221",
     "language": "C++ (GCC 9.2.1)",
