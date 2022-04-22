@@ -6559,6 +6559,24 @@
     ],
     "timestamp": "Jan/16/2023 13:27"
   },
+  "CF154469132": {
+    "contest_id": 1669,
+    "language": "GNU C++20 (64)",
+    "path": "codeforces/1669/E.cpp",
+    "platform": "Codeforces",
+    "problem_index": "E",
+    "problem_name": "2-Letter Strings",
+    "problem_url": "https://codeforces.com/contest/1669/problem/E",
+    "submission_id": "CF154469132",
+    "submission_url": "https://codeforces.com/contest/1669/submission/154469132",
+    "tags": [
+      "data structures",
+      "math",
+      "strings",
+      "*1200"
+    ],
+    "timestamp": "Apr/22/2022 12:07"
+  },
   "CF154469160": {
     "contest_id": 1669,
     "language": "GNU C++20 (64)",
