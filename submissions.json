@@ -6559,6 +6559,24 @@
     ],
     "timestamp": "Jan/16/2023 13:27"
   },
+  "CF154695344": {
+    "contest_id": 1672,
+    "language": "GNU C++20 (64)",
+    "path": "codeforces/1672/A.cpp",
+    "platform": "Codeforces",
+    "problem_index": "A",
+    "problem_name": "Log Chopping",
+    "problem_url": "https://codeforces.com/contest/1672/problem/A",
+    "submission_id": "CF154695344",
+    "submission_url": "https://codeforces.com/contest/1672/submission/154695344",
+    "tags": [
+      "games",
+      "implementation",
+      "math",
+      "*800"
+    ],
+    "timestamp": "Apr/23/2022 19:37"
+  },
   "CF154711677": {
     "contest_id": 1672,
     "language": "GNU C++20 (64)",
