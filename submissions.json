@@ -1,4 +1,20 @@
 {
+  "AC31184767": {
+    "contest_id": "abc249",
+    "language": "C++ (GCC 9.2.1)",
+    "path": "atcoder/abc249/D.cpp",
+    "platform": "AtCoder",
+    "problem_index": "D",
+    "problem_name": "Index Trio",
+    "problem_url": "https://atcoder.jp/contests/abc249/tasks/abc249_d",
+    "submission_id": "AC31184767",
+    "submission_url": "https://atcoder.jp/contests/abc249/submissions/31184767",
+    "tags": [
+      "AtCoder",
+      "*400"
+    ],
+    "timestamp": "Apr/23/2022 17:48"
+  },
   "AC31226537": {
     "contest_id": "abc174",
     "language": "C++ (GCC 9.2.1)",
