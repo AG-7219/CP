@@ -6559,6 +6559,23 @@
     ],
     "timestamp": "Jan/16/2023 13:27"
   },
+  "CF154814961": {
+    "contest_id": 1088,
+    "language": "GNU C++20 (64)",
+    "path": "codeforces/1088/A.cpp",
+    "platform": "Codeforces",
+    "problem_index": "A",
+    "problem_name": "Ehab and another construction problem",
+    "problem_url": "https://codeforces.com/contest/1088/problem/A",
+    "submission_id": "CF154814961",
+    "submission_url": "https://codeforces.com/contest/1088/submission/154814961",
+    "tags": [
+      "brute force",
+      "constructive algorithms",
+      "*800"
+    ],
+    "timestamp": "Apr/24/2022 11:48"
+  },
   "CF154815890": {
     "contest_id": 686,
     "language": "GNU C++20 (64)",
