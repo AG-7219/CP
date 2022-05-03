@@ -6559,6 +6559,23 @@
     ],
     "timestamp": "Jan/16/2023 13:27"
   },
+  "CF155730708": {
+    "contest_id": 421,
+    "language": "GNU C++20 (64)",
+    "path": "codeforces/421/A.cpp",
+    "platform": "Codeforces",
+    "problem_index": "A",
+    "problem_name": "Pasha and Hamsters",
+    "problem_url": "https://codeforces.com/contest/421/problem/A",
+    "submission_id": "CF155730708",
+    "submission_url": "https://codeforces.com/contest/421/submission/155730708",
+    "tags": [
+      "constructive algorithms",
+      "implementation",
+      "*800"
+    ],
+    "timestamp": "May/03/2022 12:20"
+  },
   "CF155730899": {
     "contest_id": 899,
     "language": "GNU C++20 (64)",
