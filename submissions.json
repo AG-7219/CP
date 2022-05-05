@@ -6559,6 +6559,24 @@
     ],
     "timestamp": "Jan/16/2023 13:27"
   },
+  "CF156022253": {
+    "contest_id": 1675,
+    "language": "GNU C++20 (64)",
+    "path": "codeforces/1675/E.cpp",
+    "platform": "Codeforces",
+    "problem_index": "E",
+    "problem_name": "Replace With the Previous, Minimize",
+    "problem_url": "https://codeforces.com/contest/1675/problem/E",
+    "submission_id": "CF156022253",
+    "submission_url": "https://codeforces.com/contest/1675/submission/156022253",
+    "tags": [
+      "dsu",
+      "greedy",
+      "strings",
+      "*1500"
+    ],
+    "timestamp": "May/06/2022 01:19"
+  },
   "CF156046112": {
     "contest_id": 1675,
     "language": "GNU C++20 (64)",
