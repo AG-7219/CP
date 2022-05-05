@@ -6559,6 +6559,25 @@
     ],
     "timestamp": "Jan/16/2023 13:27"
   },
+  "CF155898882": {
+    "contest_id": 986,
+    "language": "GNU C++20 (64)",
+    "path": "codeforces/986/A.cpp",
+    "platform": "Codeforces",
+    "problem_index": "A",
+    "problem_name": "Fair",
+    "problem_url": "https://codeforces.com/contest/986/problem/A",
+    "submission_id": "CF155898882",
+    "submission_url": "https://codeforces.com/contest/986/submission/155898882",
+    "tags": [
+      "graphs",
+      "greedy",
+      "number theory",
+      "shortest paths",
+      "*1600"
+    ],
+    "timestamp": "May/05/2022 13:10"
+  },
   "CF156021683": {
     "contest_id": 1675,
     "language": "GNU C++20 (64)",
