@@ -6559,6 +6559,28 @@
     ],
     "timestamp": "Jan/16/2023 13:27"
   },
+  "CF156139965": {
+    "contest_id": 1056,
+    "language": "GNU C++20 (64)",
+    "path": "codeforces/1056/D.cpp",
+    "platform": "Codeforces",
+    "problem_index": "D",
+    "problem_name": "Decorate Apple Tree",
+    "problem_url": "https://codeforces.com/contest/1056/problem/D",
+    "submission_id": "CF156139965",
+    "submission_url": "https://codeforces.com/contest/1056/submission/156139965",
+    "tags": [
+      "constructive algorithms",
+      "dfs and similar",
+      "dp",
+      "graphs",
+      "greedy",
+      "sortings",
+      "trees",
+      "*1600"
+    ],
+    "timestamp": "May/07/2022 02:14"
+  },
   "CF156219067": {
     "contest_id": 1486,
     "language": "GNU C++20 (64)",
