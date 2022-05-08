@@ -1,4 +1,20 @@
 {
+  "AC31514191": {
+    "contest_id": "abc250",
+    "language": "C++ (GCC 9.2.1)",
+    "path": "atcoder/abc250/A.cpp",
+    "platform": "AtCoder",
+    "problem_index": "A",
+    "problem_name": "Adjacent Squares",
+    "problem_url": "https://atcoder.jp/contests/abc250/tasks/abc250_a",
+    "submission_id": "AC31514191",
+    "submission_url": "https://atcoder.jp/contests/abc250/submissions/31514191",
+    "tags": [
+      "AtCoder",
+      "*100"
+    ],
+    "timestamp": "May/08/2022 17:31"
+  },
   "AC31520499": {
     "contest_id": "abc250",
     "language": "C++ (GCC 9.2.1)",
