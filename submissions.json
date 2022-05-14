@@ -1,4 +1,20 @@
 {
+  "AC31680982": {
+    "contest_id": "abc251",
+    "language": "C++ (GCC 9.2.1)",
+    "path": "atcoder/abc251/E.cpp",
+    "platform": "AtCoder",
+    "problem_index": "E",
+    "problem_name": "Takahashi and Animals",
+    "problem_url": "https://atcoder.jp/contests/abc251/tasks/abc251_e",
+    "submission_id": "AC31680982",
+    "submission_url": "https://atcoder.jp/contests/abc251/submissions/31680982",
+    "tags": [
+      "AtCoder",
+      "*500"
+    ],
+    "timestamp": "May/14/2022 18:28"
+  },
   "AC31771596": {
     "contest_id": "abc207",
     "language": "C++ (GCC 9.2.1)",
