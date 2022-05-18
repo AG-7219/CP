@@ -1,4 +1,20 @@
 {
+  "AC31789291": {
+    "contest_id": "abc129",
+    "language": "C++ (GCC 9.2.1)",
+    "path": "atcoder/abc129/E.cpp",
+    "platform": "AtCoder",
+    "problem_index": "E",
+    "problem_name": "Sum Equals Xor",
+    "problem_url": "https://atcoder.jp/contests/abc129/tasks/abc129_e",
+    "submission_id": "AC31789291",
+    "submission_url": "https://atcoder.jp/contests/abc129/submissions/31789291",
+    "tags": [
+      "AtCoder",
+      "*500"
+    ],
+    "timestamp": "May/19/2022 02:05"
+  },
   "AC31832659": {
     "contest_id": "abc252",
     "language": "C++ (GCC 9.2.1)",
