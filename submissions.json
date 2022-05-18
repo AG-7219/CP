@@ -1,4 +1,20 @@
 {
+  "AC31788766": {
+    "contest_id": "abc105",
+    "language": "C++ (GCC 9.2.1)",
+    "path": "atcoder/abc105/D.cpp",
+    "platform": "AtCoder",
+    "problem_index": "D",
+    "problem_name": "Candy Distribution",
+    "problem_url": "https://atcoder.jp/contests/abc105/tasks/abc105_d",
+    "submission_id": "AC31788766",
+    "submission_url": "https://atcoder.jp/contests/abc105/submissions/31788766",
+    "tags": [
+      "AtCoder",
+      "*400"
+    ],
+    "timestamp": "May/18/2022 23:45"
+  },
   "AC31788961": {
     "contest_id": "abc118",
     "language": "C++ (GCC 9.2.1)",
