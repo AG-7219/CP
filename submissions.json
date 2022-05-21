@@ -1,4 +1,20 @@
 {
+  "AC31854209": {
+    "contest_id": "abc252",
+    "language": "C++ (GCC 9.2.1)",
+    "path": "atcoder/abc252/E.cpp",
+    "platform": "AtCoder",
+    "problem_index": "E",
+    "problem_name": "Road Reduction",
+    "problem_url": "https://atcoder.jp/contests/abc252/tasks/abc252_e",
+    "submission_id": "AC31854209",
+    "submission_url": "https://atcoder.jp/contests/abc252/submissions/31854209",
+    "tags": [
+      "AtCoder",
+      "*500"
+    ],
+    "timestamp": "May/21/2022 17:58"
+  },
   "AC31864194": {
     "contest_id": "abc252",
     "language": "C++ (GCC 9.2.1)",
