@@ -1,4 +1,20 @@
 {
+  "AC31997318": {
+    "contest_id": "abc253",
+    "language": "C++ (GCC 9.2.1)",
+    "path": "atcoder/abc253/A.cpp",
+    "platform": "AtCoder",
+    "problem_index": "A",
+    "problem_name": "Median?",
+    "problem_url": "https://atcoder.jp/contests/abc253/tasks/abc253_a",
+    "submission_id": "AC31997318",
+    "submission_url": "https://atcoder.jp/contests/abc253/submissions/31997318",
+    "tags": [
+      "AtCoder",
+      "*100"
+    ],
+    "timestamp": "May/28/2022 17:31"
+  },
   "AC32001501": {
     "contest_id": "abc253",
     "language": "C++ (GCC 9.2.1)",
