@@ -79,7 +79,6 @@ void TATAKAE(int T)
 {
     get(int,n)
     map<int,int> cnt;
-  	vector<int> norms(n+1);
     int ans = 0;
     rep(i,1,n+1)
     {   
@@ -99,11 +98,10 @@ void TATAKAE(int T)
             }
         }
         if(temp > 1) norm *= temp;
-        norms[i] = norm;
         cnt[norm]++;
+        ans += 2*cnt[norm];
     }
-  	rep(i,1,n+1) ans += cnt[norms[i]];
-  	cout<<ans<<"\n";
+    putn(ans-n)
 }
 
 signed main()
