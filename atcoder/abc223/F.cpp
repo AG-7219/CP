@@ -376,6 +376,7 @@ void TATAKAE(int T)
     }
 
     segtree root(aux,make_pair(0LL,0LL),[](const int& x, const int& ind){ return make_pair(x,x); }, [](const pii& l, const pii& r){ return make_pair(l.fr + r.fr, min(l.sc,l.fr + r.sc)); }, 0LL, [](int upd, pii x){ return make_pair(upd,upd); });
+    // static_assert(!decltype(root)::is_lazy);
 
     while(q--)
     {
@@ -385,8 +386,8 @@ void TATAKAE(int T)
         {
             r--;
             swap(aux[l],aux[r]);
-            root.assign(l,{aux[l],aux[l]});
-            root.assign(r,{aux[r],aux[r]});
+            root.update(l,aux[l]);
+            root.update(r,aux[r]);
         }
         else 
         {
