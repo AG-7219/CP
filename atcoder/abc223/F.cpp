@@ -15,8 +15,8 @@
 #define all(x)            x.begin(), x.end()
 #define rall(x)           x.rbegin(), x.rend()
 #define sort_by(span,p)   sort(span, [&](const auto &l, const auto &r) { return p; })
-#define f(u, args...)     [&](auto &&u) { return args; }
-#define g(u, v, args...)  [&](auto &&u, auto &&v) { return args; }
+// #define f(u, args...)     [&](auto &&u) { return args; }
+// #define g(u, v, args...)  [&](auto &&u, auto &&v) { return args; }
 #define uniq(x)           x.erase(unique(all(x)),x.end());
 #define sz(x)             (int)(x).size()
 #define mid(l,r)          ((l)+((r)-(l))/2)
@@ -35,9 +35,9 @@
 #define clz(n)            ((n) ? __builtin_clzll((unsigned long long)(n)) : 64)
 #define MSB(n)            ((n) ? (1LL<<__lg(n)) : 0)
 #define LSB(n)            ((n)&(-(n)))
-#define vec(args...)      vector<args>
-#define set(args...)      set<args,Comp<args> >
-#define pqueue(args...)   priority_queue<args,vector<args>,Comp<args> > 
+#define vec(args...)      std::vector<args>
+#define set(args...)      std::set<args,Comp<args> >
+#define pqueue(args...)   std::priority_queue<args,vector<args>,Comp<args> > 
 #define oset(args...)     tree<args, null_type, less<args>, rb_tree_tag, tree_order_statistics_node_update>
 
 const int N = 100001, M = 998244353, mod = 1000000007, MX = INT64_MAX, MN = INT64_MIN, oo = 1e18;
@@ -53,7 +53,7 @@ const int N = 100001, M = 998244353, mod = 1000000007, MX = INT64_MAX, MN = INT6
 using namespace __gnu_pbds;
 using namespace std;
 
-vec(string) tokenizer(string str,char ch) {istringstream var((str)); vec(string) v; string t; while(getline((var), t, (ch))) {v.pb(t);} return v;}
+vec(string) tokenizer(string str,char ch) {std::istringstream var((str)); vec(string) v; string t; while(getline((var), t, (ch))) {v.pb(t);} return v;}
 
 template<typename T> struct Comp { bool operator()(const T& l, const T& r) const { return l < r; } };
 template<typename T1, typename T2> inline istream& operator >> (istream& in, pair<T1,T2>& a) { in>>a.first>>a.second; return in; }
@@ -74,310 +74,131 @@ void file_i_o()
     freopen("./tests/output01.txt", "w", stdout);
 }
 
-template <class Base,
-          class Node,
-          class Update,
-          class MakeNode,
-          class CombineNodes,
-          class ApplyUpdate,
-          class ComposeUpdates = nullptr_t,
-          class CheckLazy = nullptr_t>
-class segtree 
-{
-    static constexpr bool is_lazy = !is_same<ComposeUpdates, nullptr_t>::value;
-    static constexpr bool is_check_lazy = !is_same<CheckLazy, nullptr_t>::value;
-
-   private:
-    int _n, log;
-    vector<Node> d;
-    vector<Update> lz;
-    MakeNode make_node;
-    CombineNodes combine;
-    Node id_node;
-    ApplyUpdate apply_update;
-    Update id_update;
-    ComposeUpdates compose_updates;
-    CheckLazy check_lazy;
-
-    void merge(int k) { d[k] = combine(d[k<<1], d[k<<1 | 1]); }
-    void all_apply(int k, Update upd) {
-        d[k] = apply_update(upd, d[k]);
-        if constexpr (is_lazy)
-            if (k < _n) lz[k] = compose_updates(upd, lz[k]);
-    }
-    void push(int k) {
-        if constexpr (is_check_lazy) {
-            if (!check_lazy(lz[k])) return;
-        }
-        all_apply(k<<1, lz[k]);
-        all_apply(k<<1 | 1, lz[k]);
-        lz[k] = id_update;
-    }
-
-   public:
-    template <typename... T>
-    explicit segtree(int n, const Base& id_base, T... args) : segtree(vector<Base>(n, id_base), args...) {}
-    explicit segtree(const vector<Base>& v,
-                     const Node& _id_node,
-                     const MakeNode& _make_node,
-                     const CombineNodes& _combine,
-                     const Update& _id_update,
-                     const ApplyUpdate& _apply_update,
-                     const ComposeUpdates& _compose_updates = nullptr,
-                     const CheckLazy& _check_lazy = nullptr)
-                    : _n(int32_t(v.size())),
-                      make_node(_make_node),
-                      combine(_combine),
-                      id_node(_id_node),
-                      apply_update(_apply_update),
-                      id_update(_id_update),
-                      compose_updates(_compose_updates),
-                      check_lazy(_check_lazy) {
-                            build(v);
-                      }
-
-    void build(const vector<Base>& v) {
-        _n = int32_t(v.size());
+template <class S, S (*op)(S, S), S (*e)()> struct segtree {
+  public:
+    segtree() : segtree(0) {}
+    explicit segtree(int n) : segtree(std::vector<S>(n, e())) {}
+    explicit segtree(const std::vector<S>& v) : _n(int32_t(v.size())) {
         log = 0;
-        while ((2 * _n - 1) >> log > 1) ++log;
-        d = vector<Node>(2 * _n, id_node);
-        if constexpr (is_lazy) lz = vector<Update>(_n, id_update);
-        for (int i = 0; i < _n; i++) d[_n + i] = make_node(v[i], i);
-        for (int i = _n - 1; i >= 1; i--) merge(i);
-    }
-    
-    void assign(int p, Node x) {
-        p += _n;
-        if constexpr (is_lazy)
-            for (int i = log; i >= 1; i--) push(p >> i);
-        d[p] = x;
-        for (int i = 1; i <= log; ++i) merge(p >> i);
+        while ((1<<log) < _n) log++;
+        size = 1 << log;
+        tree = std::vector<S>(2 * size, e());
+        for (int i = 0; i < _n; i++) tree[size + i] = v[i];
+        for (int i = size - 1; i >= 1; i--) merge(i);
     }
 
-    Node query(int p) {
-        p += _n;
-        if constexpr (is_lazy)
-            for (int i = log; i >= 1; i--) push(p >> i);
-        return d[p];
+    //O(logN)
+    void update(int p, S x) {
+        assert(0 <= p && p < _n);
+        p += size;
+        tree[p] = x;
+        for (int i = 1; i <= log; i++) merge(p >> i);
     }
 
-    Node query(int l, int r) {
-        if (l == r) return id_node;
-        l += _n, r += _n;
-        if constexpr (is_lazy) {
-            int l_ctz = __builtin_ctz(l);
-            int r_ctz = __builtin_ctz(r);
-            for (int i = log; i > l_ctz; --i) push(l >> i);
-            for (int i = log; i > r_ctz; --i) push((r - 1) >> i);
-        }
-        Node sm = id_node;
-        --l;
-        const int lg = __lg(r ^ l);
-        const int lg_mask = (1 << lg) - 1;
-        const int l_iter = lg - __builtin_popcount(l & lg_mask);
-        for (int i = 0; i < l_iter; ++i) {
-            ++(l >>= __builtin_ctz(~l));
-            sm = combine(sm, d[l]);
-        }
-        const int r_iter = __builtin_popcount(r & lg_mask);
-        int r_suffix = r & ((1 << lg) - 1);
-        for (int i = 0; i < r_iter; ++i) {
-            const int lg_suffix = __lg(r_suffix);
-            const int R = r >> lg_suffix;
-            sm = combine(sm, d[R - 1]);
-            r_suffix ^= 1 << lg_suffix;
-        }
-        return sm;
-    }
-    
-    Node query() const { return query(0, _n); }
-    
-    void update(int p, Update upd) {
-        p += _n;
-        if constexpr (is_lazy)
-            for (int i = log; i >= 1; i--) push(p >> i);
-        d[p] = apply_update(upd, d[p]);
-        for (int i = 1; i <= log; ++i) merge(p >> i);
-    }
-    
-    void update(int l, int r, Update upd) {
-        if (l == r) return;
-        l += _n, r += _n;
-        const int l_ctz = __builtin_ctz(l);
-        const int r_ctz = __builtin_ctz(r);
-        if constexpr (is_lazy) {
-            for (int i = log; i > l_ctz; --i) push(l >> i);
-            for (int i = log; i > r_ctz; --i) push((r - 1) >> i);
-        }
-        {
-            const int l2 = l, r2 = r;
-            --l;
-            const int lg = __lg(r ^ l);
-            const int lg_mask = (1 << lg) - 1;
-            const int l_iter = lg - __builtin_popcount(l & lg_mask);
-            for (int i = 0; i < l_iter; ++i) {
-                ++(l >>= __builtin_ctz(~l));
-                all_apply(l, upd);
-            }
-            const int r_iter = __builtin_popcount(r & lg_mask);
-            int r_suffix = r & ((1 << lg) - 1);
-            for (int i = 0; i < r_iter; ++i) {
-                const int lg_suffix = __lg(r_suffix);
-                const int R = r >> lg_suffix;
-                all_apply(R - 1, upd);
-                r_suffix ^= 1 << lg_suffix;
-            }
-            l = l2, r = r2;
-        }
-        for (int i = l_ctz + 1; i <= log; ++i) update(l >> i);
-        for (int i = r_ctz + 1; i <= log; ++i) update((r - 1) >> i);
+    //O(1)
+    S pquery(int p) const {
+        assert(0 <= p && p < _n);
+        return tree[p + size];
     }
 
-    template <class G>
-    int max_right(int l, G bs) {
-        // assert(0 <= l && l <= _n);
-        // assert(bs(id_node));
+    //O(logN)
+    S rquery(int l, int r) const {
+        assert(0 <= l && l <= r && r <= _n);
+        S sml = e(), smr = e();
+        l += size;
+        r += size;
 
+        while (l < r) {
+            if (l & 1) sml = op(sml, tree[l++]);
+            if (r & 1) smr = op(tree[--r], smr);
+            l >>= 1;
+            r >>= 1;
+        }
+        return op(sml, smr);
+    }
+
+    //O(1)
+    S query_all() const { return tree[1]; }
+
+    //O(logN)
+    template <bool (*f)(S)> int max_right(int l) const {
+        return max_right(l, [](S x) { return f(x); });
+    }
+    template <class F> int max_right(int l, F f) const {
+        assert(0 <= l && l <= _n);
+        assert(f(e()));
         if (l == _n) return _n;
-
-        l += _n;
-        int r = 2 * _n;
-        
-        const int l_ctz = __builtin_ctz(l);
-        const int r_ctz = __builtin_ctz(r);
-        
-        if constexpr (is_lazy) {
-            for (int i = log; i > l_ctz; --i) push(l >> i);
-            for (int i = log; i > r_ctz; --i) push((r - 1) >> i);
-        }
-        
-        Node sm = id_node;
-
-        --l;
-        int i = -1;
-        const int lg = __lg(r ^ l);
-        const int lg_mask = (1 << lg) - 1;
-        const int l_iter = lg - __builtin_popcount(l & lg_mask);
-        for (int it = 0; it < l_iter; ++it) {
-            ++(l >>= __builtin_ctz(~l));
-            int root = l;
-            auto c = combine(sm, d[root]);
-            if (!bs(c)) {
-                i = root;
-                break;
-            }
-            sm = c;
-        }
-
-        if (i == -1) {
-            const int r_iter = __builtin_popcount(r & lg_mask);
-            int r_suffix = r & ((1 << lg) - 1);
-            for (int it = 0; it < r_iter; ++it) {
-                const int lg_suffix = __lg(r_suffix);
-                const int R = r >> lg_suffix;
-                r_suffix ^= 1 << lg_suffix;
-                const int root = R - 1;
-                auto c = combine(sm, d[root]);
-                if (!bs(c)) {
-                    i = root;
-                    break;
+        l += size;
+        S sm = e();
+        do {
+            while (l % 2 == 0) l >>= 1;
+            if (!f(op(sm, tree[l]))) {
+                while (l < size) {
+                    l = (2 * l);
+                    if (f(op(sm, tree[l]))) {
+                        sm = op(sm, tree[l]);
+                        l++;
+                    }
                 }
-                sm = c;
+                return l - size;
             }
-        }
-
-        if (i == -1) return _n;
-        while (i < _n) {
-            push(i);
-            i = 2 * i;
-            auto c = combine(sm, d[i]);
-            if (bs(c)) {
-                sm = c;
-                ++i;
-            }
-        }
-        return i - _n;
+            sm = op(sm, tree[l]);
+            l++;
+        } while ((l & -l) != l);
+        return _n;
     }
 
-    template <class G>
-    int min_left(int r, G bs) {
-        // assert(0 <= r && r <= _n);
-        // assert(bs(id_node));
+    // O(logN)
+    template <bool (*f)(S)> int min_left(int r) const {
+        return min_left(r, [](S x) { return f(x); });
+    }
+    template <class F> int min_left(int r, F f) const {
+        assert(0 <= r && r <= _n);
+        assert(f(e()));
         if (r == 0) return 0;
-        r += _n;
-        int l = _n;
-       
-        const int l_ctz = __builtin_ctz(l);
-        const int r_ctz = __builtin_ctz(r);
-        
-        if constexpr (is_lazy) {
-            for (int i = log; i > l_ctz; --i) push(l >> i);
-            for (int i = log; i > r_ctz; --i) push((r - 1) >> i);
-        }
-        
-        --l;
-        Node sm = id_node;
-        int i = -1;
-        const int lg = __lg(r ^ l);
-        const int lg_mask = (1 << lg) - 1;
-        const int r_iter = __builtin_popcount(r & lg_mask);
-        for (int it = 0; it < r_iter; ++it) {
-            r >>= __builtin_ctz(r);
-            const int root = --r;
-            auto c = combine(d[root], sm);
-            if (!bs(c)) {
-                i = root;
-                break;
-            }
-            sm = c;
-        }
-
-        if (i == -1) {
-            const int l_iter = lg - __builtin_popcount(l & lg_mask);
-            int l_suffix = (l & lg_mask) ^ lg_mask;
-            for (int it = 0; it < l_iter; ++it) {
-                const int lg_suffix = __lg(l_suffix);
-                const int L = l >> lg_suffix;
-                l_suffix ^= 1 << lg_suffix;
-                const int root = L + 1;
-                auto c = combine(d[root], sm);
-                if (!bs(c)) {
-                    i = root;
-                    break;
+        r += size;
+        S sm = e();
+        do {
+            r--;
+            while (r > 1 && (r % 2)) r >>= 1;
+            if (!f(op(tree[r], sm))) {
+                while (r < size) {
+                    r = (2 * r + 1);
+                    if (f(op(tree[r], sm))) {
+                        sm = op(tree[r], sm);
+                        r--;
+                    }
                 }
-                sm = c;
+                return r + 1 - size;
             }
-        }
-
-        if (i == -1) return 0;
-        while (i < _n) {
-            push(i);
-            i = 2 * i + 1;
-            auto c = combine(d[i], sm);
-            if (bs(c)) {
-                sm = c;
-                --i;
-            }
-        }
-        return i + 1 - _n;
+            sm = op(tree[r], sm);
+        } while ((r & -r) != r);
+        return 0;
     }
+
+  private:
+    int _n, size, log;
+    std::vector<S> tree;
+
+    void merge(int k) { tree[k] = op(tree[2 * k], tree[2 * k + 1]); }
 };
+
+pii merge(const pii l, const pii r){ return make_pair(l.fr + r.fr, min(l.sc,l.fr+r.sc)); }
+pii id(){ return make_pair(0,0); }
 
 // If you win, you live. You cannot win unless you fight.
 void TATAKAE(int T)
 {
     get(int,n,q)
     get(string,s)
-    vector<int> aux(n);
+    vector<pii> aux(n);
     rep(i,0,n)
     {
-        if(s[i] == '(') aux[i] = 1;
-        else aux[i] = -1;
+        if(s[i] == '(') aux[i] = {1,1};
+        else aux[i] = {-1,-1};
     }
 
-    segtree root(aux,make_pair(0LL,0LL),[](const int& x, const int& ind){ return make_pair(x,x); }, [](const pii& l, const pii& r){ return make_pair(l.fr + r.fr, min(l.sc,l.fr + r.sc)); }, 0LL, [](int upd, pii x){ return make_pair(upd,upd); });
-    // static_assert(!decltype(root)::is_lazy);
-
+    segtree<pii,merge,id> root(aux);
     while(q--)
     {
         get(int,type,l,r)
@@ -391,7 +212,7 @@ void TATAKAE(int T)
         }
         else 
         {
-            auto ans = root.query(l,r);
+            auto ans = root.rquery(l,r);
             if(ans.first or (ans.second < 0)) putn("No")
             else putn("Yes")
         }
