@@ -1,4 +1,20 @@
 {
+  "AC32384189": {
+    "contest_id": "abc255",
+    "language": "C++ (GCC 9.2.1)",
+    "path": "atcoder/abc255/C.cpp",
+    "platform": "AtCoder",
+    "problem_index": "C",
+    "problem_name": "\u00b11 Operation 1",
+    "problem_url": "https://atcoder.jp/contests/abc255/tasks/abc255_c",
+    "submission_id": "AC32384189",
+    "submission_url": "https://atcoder.jp/contests/abc255/submissions/32384189",
+    "tags": [
+      "AtCoder",
+      "*300"
+    ],
+    "timestamp": "Jun/11/2022 17:49"
+  },
   "AC32386681": {
     "contest_id": "abc255",
     "language": "C++ (GCC 9.2.1)",
