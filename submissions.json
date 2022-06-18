@@ -1,4 +1,20 @@
 {
+  "AC32547389": {
+    "contest_id": "abc256",
+    "language": "C++ (GCC 9.2.1)",
+    "path": "atcoder/abc256/C.cpp",
+    "platform": "AtCoder",
+    "problem_index": "C",
+    "problem_name": "Filling 3x3 array",
+    "problem_url": "https://atcoder.jp/contests/abc256/tasks/abc256_c",
+    "submission_id": "AC32547389",
+    "submission_url": "https://atcoder.jp/contests/abc256/submissions/32547389",
+    "tags": [
+      "AtCoder",
+      "*300"
+    ],
+    "timestamp": "Jun/18/2022 17:43"
+  },
   "AC32549930": {
     "contest_id": "abc256",
     "language": "C++ (GCC 9.2.1)",
