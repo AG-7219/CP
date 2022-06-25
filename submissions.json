@@ -1,4 +1,20 @@
 {
+  "AC32747316": {
+    "contest_id": "abc257",
+    "language": "C++ (GCC 9.2.1)",
+    "path": "atcoder/abc257/F.cpp",
+    "platform": "AtCoder",
+    "problem_index": "F",
+    "problem_name": "Teleporter Setting",
+    "problem_url": "https://atcoder.jp/contests/abc257/tasks/abc257_f",
+    "submission_id": "AC32747316",
+    "submission_url": "https://atcoder.jp/contests/abc257/submissions/32747316",
+    "tags": [
+      "AtCoder",
+      "*500"
+    ],
+    "timestamp": "Jun/25/2022 19:05"
+  },
   "AC32887510": {
     "contest_id": "abc258",
     "language": "C++ (GCC 9.2.1)",
