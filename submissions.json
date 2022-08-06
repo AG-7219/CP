@@ -1,4 +1,20 @@
 {
+  "AC33803883": {
+    "contest_id": "abc263",
+    "language": "C++ (GCC 9.2.1)",
+    "path": "atcoder/abc263/A.cpp",
+    "platform": "AtCoder",
+    "problem_index": "A",
+    "problem_name": "Full House",
+    "problem_url": "https://atcoder.jp/contests/abc263/tasks/abc263_a",
+    "submission_id": "AC33803883",
+    "submission_url": "https://atcoder.jp/contests/abc263/submissions/33803883",
+    "tags": [
+      "AtCoder",
+      "*100"
+    ],
+    "timestamp": "Aug/06/2022 17:33"
+  },
   "AC33806696": {
     "contest_id": "abc263",
     "language": "C++ (GCC 9.2.1)",
