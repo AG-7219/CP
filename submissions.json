@@ -1,4 +1,20 @@
 {
+  "AC34006051": {
+    "contest_id": "abc264",
+    "language": "C++ (GCC 9.2.1)",
+    "path": "atcoder/abc264/E.cpp",
+    "platform": "AtCoder",
+    "problem_index": "E",
+    "problem_name": "Blackout 2",
+    "problem_url": "https://atcoder.jp/contests/abc264/tasks/abc264_e",
+    "submission_id": "AC34006051",
+    "submission_url": "https://atcoder.jp/contests/abc264/submissions/34006051",
+    "tags": [
+      "AtCoder",
+      "*500"
+    ],
+    "timestamp": "Aug/13/2022 18:11"
+  },
   "AC34007380": {
     "contest_id": "abc264",
     "language": "C++ (GCC 9.2.1)",
