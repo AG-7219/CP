@@ -1,4 +1,20 @@
 {
+  "AC34557252": {
+    "contest_id": "abc267",
+    "language": "C++ (GCC 9.2.1)",
+    "path": "atcoder/abc267/E.cpp",
+    "platform": "AtCoder",
+    "problem_index": "E",
+    "problem_name": "Erasing Vertices 2",
+    "problem_url": "https://atcoder.jp/contests/abc267/tasks/abc267_e",
+    "submission_id": "AC34557252",
+    "submission_url": "https://atcoder.jp/contests/abc267/submissions/34557252",
+    "tags": [
+      "AtCoder",
+      "*500"
+    ],
+    "timestamp": "Sep/03/2022 18:14"
+  },
   "AC34725950": {
     "contest_id": "abc268",
     "language": "C++ (GCC 9.2.1)",
