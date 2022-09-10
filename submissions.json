@@ -1,4 +1,20 @@
 {
+  "AC34727208": {
+    "contest_id": "abc268",
+    "language": "C++ (GCC 9.2.1)",
+    "path": "atcoder/abc268/A.cpp",
+    "platform": "AtCoder",
+    "problem_index": "A",
+    "problem_name": "Five Integers",
+    "problem_url": "https://atcoder.jp/contests/abc268/tasks/abc268_a",
+    "submission_id": "AC34727208",
+    "submission_url": "https://atcoder.jp/contests/abc268/submissions/34727208",
+    "tags": [
+      "AtCoder",
+      "*100"
+    ],
+    "timestamp": "Sep/10/2022 17:31"
+  },
   "AC34736485": {
     "contest_id": "abc268",
     "language": "C++ (GCC 9.2.1)",
