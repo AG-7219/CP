@@ -1,4 +1,20 @@
 {
+  "AC34736485": {
+    "contest_id": "abc268",
+    "language": "C++ (GCC 9.2.1)",
+    "path": "atcoder/abc268/C.cpp",
+    "platform": "AtCoder",
+    "problem_index": "C",
+    "problem_name": "Chinese Restaurant",
+    "problem_url": "https://atcoder.jp/contests/abc268/tasks/abc268_c",
+    "submission_id": "AC34736485",
+    "submission_url": "https://atcoder.jp/contests/abc268/submissions/34736485",
+    "tags": [
+      "AtCoder",
+      "*300"
+    ],
+    "timestamp": "Sep/10/2022 17:43"
+  },
   "AC36768390": {
     "contest_id": "abc270",
     "language": "C++ (GCC 9.2.1)",
