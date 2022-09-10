@@ -1,4 +1,20 @@
 {
+  "AC34725950": {
+    "contest_id": "abc268",
+    "language": "C++ (GCC 9.2.1)",
+    "path": "atcoder/abc268/B.cpp",
+    "platform": "AtCoder",
+    "problem_index": "B",
+    "problem_name": "Prefix?",
+    "problem_url": "https://atcoder.jp/contests/abc268/tasks/abc268_b",
+    "submission_id": "AC34725950",
+    "submission_url": "https://atcoder.jp/contests/abc268/submissions/34725950",
+    "tags": [
+      "AtCoder",
+      "*200"
+    ],
+    "timestamp": "Sep/10/2022 17:31"
+  },
   "AC34727208": {
     "contest_id": "abc268",
     "language": "C++ (GCC 9.2.1)",
