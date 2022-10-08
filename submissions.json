@@ -1,4 +1,23 @@
 {
+  "CF175093516": {
+    "contest_id": 214,
+    "language": "GNU C++20 (64)",
+    "path": "codeforces/214/B.cpp",
+    "platform": "Codeforces",
+    "problem_index": "B",
+    "problem_name": "Hometask",
+    "problem_url": "https://codeforces.com/contest/214/problem/B",
+    "submission_id": "CF175093516",
+    "submission_url": "https://codeforces.com/contest/214/submission/175093516",
+    "tags": [
+      "brute force",
+      "constructive algorithms",
+      "greedy",
+      "math",
+      "*1600"
+    ],
+    "timestamp": "Oct/08/2022 13:23"
+  },
   "CF175094402": {
     "contest_id": 283,
     "language": "GNU C++20 (64)",
