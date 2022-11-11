@@ -1,4 +1,24 @@
 {
+  "CF180433946": {
+    "contest_id": 1368,
+    "language": "GNU C++20 (64)",
+    "path": "codeforces/1368/B.cpp",
+    "platform": "Codeforces",
+    "problem_index": "B",
+    "problem_name": "Codeforces Subsequences",
+    "problem_url": "https://codeforces.com/contest/1368/problem/B",
+    "submission_id": "CF180433946",
+    "submission_url": "https://codeforces.com/contest/1368/submission/180433946",
+    "tags": [
+      "brute force",
+      "constructive algorithms",
+      "greedy",
+      "math",
+      "strings",
+      "*1500"
+    ],
+    "timestamp": "Nov/11/2022 13:36"
+  },
   "CF184479785": {
     "contest_id": 33,
     "language": "GNU C++20 (64)",
