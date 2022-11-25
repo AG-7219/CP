@@ -1,4 +1,20 @@
 {
+  "AC36768473": {
+    "contest_id": "abc270",
+    "language": "C++ (GCC 9.2.1)",
+    "path": "atcoder/abc270/E.cpp",
+    "platform": "AtCoder",
+    "problem_index": "E",
+    "problem_name": "Apple Baskets on Circle",
+    "problem_url": "https://atcoder.jp/contests/abc270/tasks/abc270_e",
+    "submission_id": "AC36768473",
+    "submission_url": "https://atcoder.jp/contests/abc270/submissions/36768473",
+    "tags": [
+      "AtCoder",
+      "*500"
+    ],
+    "timestamp": "Nov/25/2022 12:06"
+  },
   "AC37046650": {
     "contest_id": "abc261",
     "language": "C++ (GCC 9.2.1)",
