@@ -1,4 +1,20 @@
 {
+  "AC36768390": {
+    "contest_id": "abc270",
+    "language": "C++ (GCC 9.2.1)",
+    "path": "atcoder/abc270/D.cpp",
+    "platform": "AtCoder",
+    "problem_index": "D",
+    "problem_name": "Stones",
+    "problem_url": "https://atcoder.jp/contests/abc270/tasks/abc270_d",
+    "submission_id": "AC36768390",
+    "submission_url": "https://atcoder.jp/contests/abc270/submissions/36768390",
+    "tags": [
+      "AtCoder",
+      "*400"
+    ],
+    "timestamp": "Nov/25/2022 12:01"
+  },
   "AC36768473": {
     "contest_id": "abc270",
     "language": "C++ (GCC 9.2.1)",
