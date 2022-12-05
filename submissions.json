@@ -1,4 +1,20 @@
 {
+  "AC37046650": {
+    "contest_id": "abc261",
+    "language": "C++ (GCC 9.2.1)",
+    "path": "atcoder/abc261/E.cpp",
+    "platform": "AtCoder",
+    "problem_index": "E",
+    "problem_name": "Many Operations",
+    "problem_url": "https://atcoder.jp/contests/abc261/tasks/abc261_e",
+    "submission_id": "AC37046650",
+    "submission_url": "https://atcoder.jp/contests/abc261/submissions/37046650",
+    "tags": [
+      "AtCoder",
+      "*500"
+    ],
+    "timestamp": "Dec/05/2022 20:27"
+  },
   "AC37046865": {
     "contest_id": "abc261",
     "language": "C++ (GCC 9.2.1)",
