@@ -1,4 +1,20 @@
 {
+  "AC37079770": {
+    "contest_id": "abc274",
+    "language": "C++ (GCC 9.2.1)",
+    "path": "atcoder/abc274/E.cpp",
+    "platform": "AtCoder",
+    "problem_index": "E",
+    "problem_name": "Booster",
+    "problem_url": "https://atcoder.jp/contests/abc274/tasks/abc274_e",
+    "submission_id": "AC37079770",
+    "submission_url": "https://atcoder.jp/contests/abc274/submissions/37079770",
+    "tags": [
+      "AtCoder",
+      "*500"
+    ],
+    "timestamp": "Dec/07/2022 19:02"
+  },
   "AC37108955": {
     "contest_id": "abc119",
     "language": "C++ (GCC 9.2.1)",
