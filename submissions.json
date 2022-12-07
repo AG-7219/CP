@@ -1,4 +1,20 @@
 {
+  "AC37076573": {
+    "contest_id": "abc228",
+    "language": "C++ (GCC 9.2.1)",
+    "path": "atcoder/abc228/E.cpp",
+    "platform": "AtCoder",
+    "problem_index": "E",
+    "problem_name": "Integer Sequence Fair",
+    "problem_url": "https://atcoder.jp/contests/abc228/tasks/abc228_e",
+    "submission_id": "AC37076573",
+    "submission_url": "https://atcoder.jp/contests/abc228/submissions/37076573",
+    "tags": [
+      "AtCoder",
+      "*500"
+    ],
+    "timestamp": "Dec/07/2022 16:07"
+  },
   "AC37077244": {
     "contest_id": "abc238",
     "language": "C++ (GCC 9.2.1)",
