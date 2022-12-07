@@ -1,4 +1,20 @@
 {
+  "AC37077996": {
+    "contest_id": "abc241",
+    "language": "C++ (GCC 9.2.1)",
+    "path": "atcoder/abc241/E.cpp",
+    "platform": "AtCoder",
+    "problem_index": "E",
+    "problem_name": "Putting Candies",
+    "problem_url": "https://atcoder.jp/contests/abc241/tasks/abc241_e",
+    "submission_id": "AC37077996",
+    "submission_url": "https://atcoder.jp/contests/abc241/submissions/37077996",
+    "tags": [
+      "AtCoder",
+      "*500"
+    ],
+    "timestamp": "Dec/07/2022 17:33"
+  },
   "AC37079770": {
     "contest_id": "abc274",
     "language": "C++ (GCC 9.2.1)",
