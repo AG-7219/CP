@@ -1,4 +1,20 @@
 {
+  "AC37077244": {
+    "contest_id": "abc238",
+    "language": "C++ (GCC 9.2.1)",
+    "path": "atcoder/abc238/E.cpp",
+    "platform": "AtCoder",
+    "problem_index": "E",
+    "problem_name": "Range Sums",
+    "problem_url": "https://atcoder.jp/contests/abc238/tasks/abc238_e",
+    "submission_id": "AC37077244",
+    "submission_url": "https://atcoder.jp/contests/abc238/submissions/37077244",
+    "tags": [
+      "AtCoder",
+      "*500"
+    ],
+    "timestamp": "Dec/07/2022 16:54"
+  },
   "AC37077996": {
     "contest_id": "abc241",
     "language": "C++ (GCC 9.2.1)",
