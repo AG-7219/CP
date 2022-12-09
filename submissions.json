@@ -1,4 +1,20 @@
 {
+  "AC37108955": {
+    "contest_id": "abc119",
+    "language": "C++ (GCC 9.2.1)",
+    "path": "atcoder/abc119/C.cpp",
+    "platform": "AtCoder",
+    "problem_index": "C",
+    "problem_name": "Synthetic Kadomatsu",
+    "problem_url": "https://atcoder.jp/contests/abc119/tasks/abc119_c",
+    "submission_id": "AC37108955",
+    "submission_url": "https://atcoder.jp/contests/abc119/submissions/37108955",
+    "tags": [
+      "AtCoder",
+      "*300"
+    ],
+    "timestamp": "Dec/09/2022 13:27"
+  },
   "AC37135850": {
     "contest_id": "abc281",
     "language": "C++ (GCC 9.2.1)",
