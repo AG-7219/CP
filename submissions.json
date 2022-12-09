@@ -1,4 +1,20 @@
 {
+  "CF184479785": {
+    "contest_id": 33,
+    "language": "GNU C++20 (64)",
+    "path": "codeforces/33/B.cpp",
+    "platform": "Codeforces",
+    "problem_index": "B",
+    "problem_name": "String Problem",
+    "problem_url": "https://codeforces.com/contest/33/problem/B",
+    "submission_id": "CF184479785",
+    "submission_url": "https://codeforces.com/contest/33/submission/184479785",
+    "tags": [
+      "shortest paths",
+      "*1800"
+    ],
+    "timestamp": "Dec/09/2022 21:19"
+  },
   "CF184482529": {
     "contest_id": 95,
     "language": "GNU C++20 (64)",
