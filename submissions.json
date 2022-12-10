@@ -1,4 +1,23 @@
 {
+  "CF184535775": {
+    "contest_id": 500,
+    "language": "GNU C++20 (64)",
+    "path": "codeforces/500/C.cpp",
+    "platform": "Codeforces",
+    "problem_index": "C",
+    "problem_name": "New Year Book Reading",
+    "problem_url": "https://codeforces.com/contest/500/problem/C",
+    "submission_id": "CF184535775",
+    "submission_url": "https://codeforces.com/contest/500/submission/184535775",
+    "tags": [
+      "constructive algorithms",
+      "greedy",
+      "implementation",
+      "math",
+      "*1600"
+    ],
+    "timestamp": "Dec/10/2022 12:04"
+  },
   "CF184546019": {
     "contest_id": 529,
     "language": "GNU C++20 (64)",
