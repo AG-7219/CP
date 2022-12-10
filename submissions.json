@@ -1,4 +1,20 @@
 {
+  "AC37161382": {
+    "contest_id": "abc281",
+    "language": "C++ (GCC 9.2.1)",
+    "path": "atcoder/abc281/F.cpp",
+    "platform": "AtCoder",
+    "problem_index": "F",
+    "problem_name": "Xor Minimization",
+    "problem_url": "https://atcoder.jp/contests/abc281/tasks/abc281_f",
+    "submission_id": "AC37161382",
+    "submission_url": "https://atcoder.jp/contests/abc281/submissions/37161382",
+    "tags": [
+      "AtCoder",
+      "*500"
+    ],
+    "timestamp": "Dec/10/2022 18:01"
+  },
   "AC37265203": {
     "contest_id": "abc271",
     "language": "C++ (GCC 9.2.1)",
