@@ -1,4 +1,21 @@
 {
+  "CF184810229": {
+    "contest_id": 629,
+    "language": "GNU C++20 (64)",
+    "path": "codeforces/629/C.cpp",
+    "platform": "Codeforces",
+    "problem_index": "C",
+    "problem_name": "Famil Door and Brackets",
+    "problem_url": "https://codeforces.com/contest/629/problem/C",
+    "submission_id": "CF184810229",
+    "submission_url": "https://codeforces.com/contest/629/submission/184810229",
+    "tags": [
+      "dp",
+      "strings",
+      "*2000"
+    ],
+    "timestamp": "Dec/12/2022 00:28"
+  },
   "CF185041743": {
     "contest_id": 913,
     "language": "GNU C++20 (64)",
