@@ -1,4 +1,22 @@
 {
+  "CF185074788": {
+    "contest_id": 1029,
+    "language": "GNU C++20 (64)",
+    "path": "codeforces/1029/C.cpp",
+    "platform": "Codeforces",
+    "problem_index": "C",
+    "problem_name": "Maximal Intersection",
+    "problem_url": "https://codeforces.com/contest/1029/problem/C",
+    "submission_id": "CF185074788",
+    "submission_url": "https://codeforces.com/contest/1029/submission/185074788",
+    "tags": [
+      "greedy",
+      "math",
+      "sortings",
+      "*1600"
+    ],
+    "timestamp": "Dec/13/2022 18:10"
+  },
   "CF185099878": {
     "contest_id": 435,
     "language": "GNU C++20 (64)",
