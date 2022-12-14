@@ -1,4 +1,20 @@
 {
+  "AC37266912": {
+    "contest_id": "abc272",
+    "language": "C++ (GCC 9.2.1)",
+    "path": "atcoder/abc272/E.cpp",
+    "platform": "AtCoder",
+    "problem_index": "E",
+    "problem_name": "Add and Mex",
+    "problem_url": "https://atcoder.jp/contests/abc272/tasks/abc272_e",
+    "submission_id": "AC37266912",
+    "submission_url": "https://atcoder.jp/contests/abc272/submissions/37266912",
+    "tags": [
+      "AtCoder",
+      "*500"
+    ],
+    "timestamp": "Dec/14/2022 14:32"
+  },
   "AC37269268": {
     "contest_id": "abc271",
     "language": "C++ (GCC 9.2.1)",
