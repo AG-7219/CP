@@ -1,4 +1,21 @@
 {
+  "CF186123313": {
+    "contest_id": 901,
+    "language": "GNU C++20 (64)",
+    "path": "codeforces/901/A.cpp",
+    "platform": "Codeforces",
+    "problem_index": "A",
+    "problem_name": "Hashing Trees",
+    "problem_url": "https://codeforces.com/contest/901/problem/A",
+    "submission_id": "CF186123313",
+    "submission_url": "https://codeforces.com/contest/901/submission/186123313",
+    "tags": [
+      "constructive algorithms",
+      "trees",
+      "*1500"
+    ],
+    "timestamp": "Dec/20/2022 21:26"
+  },
   "CF186182277": {
     "contest_id": 864,
     "language": "GNU C++20 (64)",
