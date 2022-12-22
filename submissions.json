@@ -1,4 +1,21 @@
 {
+  "CF186327106": {
+    "contest_id": 1076,
+    "language": "GNU C++20 (64)",
+    "path": "codeforces/1076/E.cpp",
+    "platform": "Codeforces",
+    "problem_index": "E",
+    "problem_name": "Vasya and a Tree",
+    "problem_url": "https://codeforces.com/contest/1076/problem/E",
+    "submission_id": "CF186327106",
+    "submission_url": "https://codeforces.com/contest/1076/submission/186327106",
+    "tags": [
+      "data structures",
+      "trees",
+      "*1900"
+    ],
+    "timestamp": "Dec/22/2022 12:54"
+  },
   "CF186330104": {
     "contest_id": 1607,
     "language": "GNU C++20 (64)",
