@@ -1,4 +1,23 @@
 {
+  "CF186342398": {
+    "contest_id": 1513,
+    "language": "GNU C++20 (64)",
+    "path": "codeforces/1513/B.cpp",
+    "platform": "Codeforces",
+    "problem_index": "B",
+    "problem_name": "AND Sequences",
+    "problem_url": "https://codeforces.com/contest/1513/problem/B",
+    "submission_id": "CF186342398",
+    "submission_url": "https://codeforces.com/contest/1513/submission/186342398",
+    "tags": [
+      "bitmasks",
+      "combinatorics",
+      "constructive algorithms",
+      "math",
+      "*1400"
+    ],
+    "timestamp": "Dec/22/2022 16:08"
+  },
   "CF186346904": {
     "contest_id": 1227,
     "language": "GNU C++20 (64)",
