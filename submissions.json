@@ -1,4 +1,20 @@
 {
+  "AC37582416": {
+    "contest_id": "abc176",
+    "language": "C++ (GCC 9.2.1)",
+    "path": "atcoder/abc176/D.cpp",
+    "platform": "AtCoder",
+    "problem_index": "D",
+    "problem_name": "Wizard in Maze",
+    "problem_url": "https://atcoder.jp/contests/abc176/tasks/abc176_d",
+    "submission_id": "AC37582416",
+    "submission_url": "https://atcoder.jp/contests/abc176/submissions/37582416",
+    "tags": [
+      "AtCoder",
+      "*400"
+    ],
+    "timestamp": "Dec/27/2022 17:16"
+  },
   "AC37584441": {
     "contest_id": "abc212",
     "language": "C++ (GCC 9.2.1)",
