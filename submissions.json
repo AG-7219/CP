@@ -1,4 +1,20 @@
 {
+  "AC37602620": {
+    "contest_id": "abc280",
+    "language": "C++ (GCC 9.2.1)",
+    "path": "atcoder/abc280/E.cpp",
+    "platform": "AtCoder",
+    "problem_index": "E",
+    "problem_name": "Critical Hit",
+    "problem_url": "https://atcoder.jp/contests/abc280/tasks/abc280_e",
+    "submission_id": "AC37602620",
+    "submission_url": "https://atcoder.jp/contests/abc280/submissions/37602620",
+    "tags": [
+      "AtCoder",
+      "*500"
+    ],
+    "timestamp": "Dec/28/2022 19:45"
+  },
   "AC37603936": {
     "contest_id": "abc275",
     "language": "C++ (GCC 9.2.1)",
