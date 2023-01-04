@@ -1,4 +1,20 @@
 {
+  "CF187949967": {
+    "contest_id": 848,
+    "language": "GNU C++20 (64)",
+    "path": "codeforces/848/A.cpp",
+    "platform": "Codeforces",
+    "problem_index": "A",
+    "problem_name": "From Y to Y",
+    "problem_url": "https://codeforces.com/contest/848/problem/A",
+    "submission_id": "CF187949967",
+    "submission_url": "https://codeforces.com/contest/848/submission/187949967",
+    "tags": [
+      "constructive algorithms",
+      "*1600"
+    ],
+    "timestamp": "Jan/04/2023 22:27"
+  },
   "CF188325295": {
     "contest_id": 165,
     "language": "GNU C++20 (64)",
