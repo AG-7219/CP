@@ -1,4 +1,20 @@
 {
+  "AC37947216": {
+    "contest_id": "abc167",
+    "language": "C++ (GCC 9.2.1)",
+    "path": "atcoder/abc167/E.cpp",
+    "platform": "AtCoder",
+    "problem_index": "E",
+    "problem_name": "Colorful Blocks",
+    "problem_url": "https://atcoder.jp/contests/abc167/tasks/abc167_e",
+    "submission_id": "AC37947216",
+    "submission_url": "https://atcoder.jp/contests/abc167/submissions/37947216",
+    "tags": [
+      "AtCoder",
+      "*500"
+    ],
+    "timestamp": "Jan/11/2023 20:08"
+  },
   "AC37947309": {
     "contest_id": "abc034",
     "language": "C++ (GCC 9.2.1)",
