@@ -100,17 +100,18 @@ void TATAKAE(int T)
                 if(d[child]) pq.push(w+dp1[child]-dp0[child]);
             }
         }
-        dp1[node] = dp0[node] = temp;
+        amax(dp1[node],temp);
         for(int i=0; i<d[node]-1 and pq.size(); i++)
         {
             temp += pq.top(); pq.pop();
             amax(dp1[node],temp);
-            amax(dp0[node],temp);
         };
         if(d[node] and pq.size() and pq.top()>0) temp += pq.top();
-        amax(dp0[node],temp);
+        amax(dp0[node],max(temp,dp1[node]));
     };
     dfs(0,-1);
+    rep(i,0,n) assert(dp0[i] >= dp1[i]);
+    debug(dp0,dp1)
     putn(max(dp0[0],dp1[0]))
 }
 
