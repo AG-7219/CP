@@ -1,4 +1,21 @@
 {
+  "CF189315490": {
+    "contest_id": 1782,
+    "language": "GNU C++20 (64)",
+    "path": "codeforces/1782/B.cpp",
+    "platform": "Codeforces",
+    "problem_index": "B",
+    "problem_name": "Going to the Cinema",
+    "problem_url": "https://codeforces.com/contest/1782/problem/B",
+    "submission_id": "CF189315490",
+    "submission_url": "https://codeforces.com/contest/1782/submission/189315490",
+    "tags": [
+      "brute force",
+      "greedy",
+      "sortings"
+    ],
+    "timestamp": "Jan/15/2023 17:55"
+  },
   "CF189326207": {
     "contest_id": 1782,
     "language": "GNU C++20 (64)",
