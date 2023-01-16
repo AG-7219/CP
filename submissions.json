@@ -1,4 +1,20 @@
 {
+  "AC38095440": {
+    "contest_id": "agc005",
+    "language": "C++ (GCC 9.2.1)",
+    "path": "atcoder/agc005/B.cpp",
+    "platform": "AtCoder",
+    "problem_index": "B",
+    "problem_name": "Minimum Sum",
+    "problem_url": "https://atcoder.jp/contests/agc005/tasks/agc005_b",
+    "submission_id": "AC38095440",
+    "submission_url": "https://atcoder.jp/contests/agc005/submissions/38095440",
+    "tags": [
+      "AtCoder",
+      "*400"
+    ],
+    "timestamp": "Jan/16/2023 13:27"
+  },
   "CF169614290": {
     "contest_id": 1348,
     "language": "GNU C++20 (64)",
