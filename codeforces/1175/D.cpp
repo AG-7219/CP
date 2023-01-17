@@ -86,10 +86,11 @@ void TATAKAE(int T)
     int ans = 0;
     rep(i,0,n)
     {
-        if(i == o.back())
+        if(i == o.back() and k)
         {
             ans += a[i];
             o.pop_back();
+            k--;
         }
     }
     putn(ans)
